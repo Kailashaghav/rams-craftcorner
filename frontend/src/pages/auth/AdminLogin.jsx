@@ -36,7 +36,7 @@ export default function AdminLogin() {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2">
             <span className="text-4xl">🎁</span>
-            <span className="font-display text-2xl font-bold text-white">Craft Corner</span>
+            <span className="font-display text-2xl font-bold text-white">rams craftcorner</span>
           </Link>
           <div className="mt-4 inline-block px-4 py-1.5 rounded-full bg-primary-500/20 border border-primary-500/30">
             <span className="text-primary-400 text-sm font-medium">Admin Panel</span>

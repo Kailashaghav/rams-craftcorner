@@ -176,7 +176,7 @@ export default function Checkout() {
         key,
         amount:   Math.round(orderTotal * 100),
         currency: 'INR',
-        name:     'Craft Corner',
+        name:     'rams craftcorner',
         description: `Order #${orderNumber}`,
         order_id: razorpayOrderId,
         prefill: {

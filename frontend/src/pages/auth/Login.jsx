@@ -38,7 +38,7 @@ export default function Login() {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2">
             <span className="text-4xl">🎁</span>
-            <span className="font-display text-2xl font-bold gradient-text">Craft Corner</span>
+            <span className="font-display text-2xl font-bold gradient-text">rams craftcorner</span>
           </Link>
           <h1 className="mt-4 text-2xl font-bold text-gray-900 dark:text-white">Welcome back!</h1>
           <p className="mt-1 text-gray-500 dark:text-gray-400">Sign in to your account to continue</p>

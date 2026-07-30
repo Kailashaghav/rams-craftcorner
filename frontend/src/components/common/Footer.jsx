@@ -14,7 +14,7 @@ export default function Footer() {
     setSubscribing(true);
     try {
       await api.post('/contact/newsletter', { email });
-      toast.success('Subscribed! Welcome to Craft Corner 🎉');
+      toast.success('Subscribed! Welcome to rams craftcorner 🎉');
       setEmail('');
     } catch {
       toast.error('Already subscribed or invalid email');
@@ -62,7 +62,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🎁</span>
-              <span className="font-display font-bold text-xl text-white">Craft Corner</span>
+              <span className="font-display font-bold text-xl text-white">rams craftcorner</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-5">
               Curated gift boxes crafted with love for every occasion. Making every moment memorable since 2023.
@@ -133,7 +133,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-primary-400 mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-gray-400">Craft Corner ,Brindavan Gardens , Guntur, Andhra Pradesh 522006</span>
+                <span className="text-sm text-gray-400">rams craftcorner ,Brindavan Gardens , Guntur, Andhra Pradesh 522006</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-primary-400 flex-shrink-0" />
@@ -154,7 +154,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Craft Corner. All rights reserved.
+            © {new Date().getFullYear()} rams craftcorner. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {/* Payment logos */}

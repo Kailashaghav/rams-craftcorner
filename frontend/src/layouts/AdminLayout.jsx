@@ -39,7 +39,7 @@ export default function AdminLayout() {
         <div className="h-16 flex items-center justify-between px-4 border-b border-gray-200 dark:border-gray-800">
           {sidebarOpen && (
             <span className="font-display font-bold text-lg bg-gradient-to-r from-primary-500 to-purple-500 bg-clip-text text-transparent">
-              🎁 Craft Corner
+              🎁 rams craftcorner
             </span>
           )}
           <button

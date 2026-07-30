@@ -53,11 +53,11 @@ const baseTemplate = (content) => `
 <body>
   <div class="container">
     <div class="header">
-      <h1>🎁 Craft Corner</h1>
+      <h1>🎁 rams craftcorner</h1>
       <p>Curated Gifts, Crafted with Love</p>
     </div>
     <div class="body">${content}</div>
-    <div class="footer">© ${new Date().getFullYear()} Craft Corner. All rights reserved. · Pune, India</div>
+    <div class="footer">© ${new Date().getFullYear()} rams craftcorner. All rights reserved. · Pune, India</div>
   </div>
 </body>
 </html>
@@ -71,7 +71,7 @@ const sendEmail = async ({ to, subject, html }) => {
   }
   try {
     const info = await transporter.sendMail({
-      from: process.env.EMAIL_FROM || `"Craft Corner" <${process.env.EMAIL_USER}>`,
+      from: process.env.EMAIL_FROM || `"rams craftcorner" <${process.env.EMAIL_USER}>`,
       to,
       subject,
       html,
@@ -90,7 +90,7 @@ const sendEmail = async ({ to, subject, html }) => {
 const sendWelcomeEmail = async (user) => {
   return sendEmail({
     to: user.email,
-    subject: 'Welcome to Craft Corner! 🎁',
+    subject: 'Welcome to rams craftcorner! 🎁',
     html: baseTemplate(`
       <h2>Welcome, ${user.name}! 🎉</h2>
       <p>We're thrilled to have you. Explore our premium handmade gift boxes and create magical moments.</p>
@@ -102,7 +102,7 @@ const sendWelcomeEmail = async (user) => {
 const sendOTPEmail = async (user, otp) => {
   return sendEmail({
     to: user.email,
-    subject: 'Craft Corner - Email Verification OTP',
+    subject: 'rams craftcorner - Email Verification OTP',
     html: baseTemplate(`
       <h2>Verify Your Email</h2>
       <p>Hi ${user.name}, use this OTP to verify your email. Valid for 10 minutes.</p>
@@ -116,7 +116,7 @@ const sendPasswordResetEmail = async (user, resetToken) => {
   const resetUrl = `${process.env.FRONTEND_URL || 'http://localhost:5173'}/reset-password/${resetToken}`;
   return sendEmail({
     to: user.email,
-    subject: 'Craft Corner - Password Reset',
+    subject: 'rams craftcorner - Password Reset',
     html: baseTemplate(`
       <h2>Reset Your Password</h2>
       <p>Hi ${user.name}, click below to reset your password. Link expires in 1 hour.</p>

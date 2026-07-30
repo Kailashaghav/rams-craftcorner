@@ -1,4 +1,4 @@
-# 🎁 Craft Corner — Premium Customized Gift Box Store
+# 🎁 rams craftcorner — Premium Customized Gift Box Store
 
 A production-ready, enterprise-grade, AI-powered e-commerce platform for selling customized gift boxes. Built with the MERN stack (MySQL instead of MongoDB), featuring Razorpay payments, Shiprocket shipping, OpenAI chatbot, WhatsApp notifications, and a full admin dashboard.
 
@@ -297,4 +297,4 @@ npm run build
 
 ## 📄 License
 
-MIT License — Built for Craft Corner India
+MIT License — Built for rams craftcorner India

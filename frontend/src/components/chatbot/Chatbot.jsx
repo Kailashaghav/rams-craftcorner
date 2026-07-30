@@ -20,7 +20,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: "Hi! 👋 I'm **Aria**, your personal gift assistant at Craft Corner. I can help you find the perfect gift, suggest combinations, or track your orders. What are you looking for today? 🎁",
+      content: "Hi! 👋 I'm **Aria**, your personal gift assistant at rams craftcorner. I can help you find the perfect gift, suggest combinations, or track your orders. What are you looking for today? 🎁",
     },
   ]);
   const [input, setInput] = useState('');

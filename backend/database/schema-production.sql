@@ -1,10 +1,8 @@
 -- ============================================================
--- rams craftcorner - Complete MySQL Database Schema
--- Production-ready normalized schema with foreign keys
+-- Craft Corner - Production Schema (Clever Cloud / hosted MySQL)
+-- No CREATE DATABASE / USE statements — connects directly to the
+-- database your host already provisioned for you.
 -- ============================================================
-
-CREATE DATABASE IF NOT EXISTS craft_corner CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE craft_corner;
 
 -- ─── Users ───────────────────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS users (

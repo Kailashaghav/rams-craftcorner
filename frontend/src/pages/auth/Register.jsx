@@ -57,7 +57,7 @@ export default function Register() {
       const { accessToken, refreshToken, user } = res.data;
       localStorage.setItem('accessToken', accessToken);
       localStorage.setItem('refreshToken', refreshToken);
-      toast.success(`Welcome to Craft Corner, ${user.name}! 🎉`);
+      toast.success(`Welcome to rams craftcorner, ${user.name}! 🎉`);
       navigate('/');
       window.location.reload(); // reload to sync redux auth state
     } catch (err) {
@@ -83,7 +83,7 @@ export default function Register() {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2">
             <span className="text-4xl">🎁</span>
-            <span className="font-display text-2xl font-bold gradient-text">Craft Corner</span>
+            <span className="font-display text-2xl font-bold gradient-text">rams craftcorner</span>
           </Link>
           <h1 className="mt-4 text-2xl font-bold text-gray-900 dark:text-white">
             {step === 'register' ? 'Create your account' : 'Verify your email'}

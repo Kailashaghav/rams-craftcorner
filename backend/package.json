@@ -1,7 +1,7 @@
 {
   "name": "craft-corner-backend",
   "version": "1.0.0",
-  "description": "Craft Corner E-commerce Backend API",
+  "description": "rams craftcorner E-commerce Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

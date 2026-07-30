@@ -87,7 +87,7 @@ export default function Navbar() {
             <span className="text-2xl">🎁</span>
             <div>
               <span className="font-display font-bold text-xl bg-gradient-to-r from-primary-500 to-purple-500 bg-clip-text text-transparent">
-                Craft Corner
+                rams craftcorner
               </span>
               <span className="hidden sm:block text-xs text-gray-400 dark:text-gray-500 -mt-1">
                 Curated Gifts

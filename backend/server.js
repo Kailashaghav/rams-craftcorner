@@ -1,5 +1,5 @@
 /**
- * Craft Corner - Main Server Entry Point
+ * rams craftcorner - Main Server Entry Point
  * Production-ready Express.js server with security, logging, and error handling
  */
 
@@ -83,7 +83,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'Craft Corner API is running',
+    message: 'rams craftcorner API is running',
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV,
   });
@@ -124,7 +124,7 @@ const startServer = async () => {
     console.log('✅ MySQL database connected successfully');
 
     app.listen(PORT, () => {
-      console.log(`🚀 Craft Corner API server running on port ${PORT}`);
+      console.log(`🚀 rams craftcorner API server running on port ${PORT}`);
       console.log(`📌 Environment: ${process.env.NODE_ENV}`);
       console.log(`🔗 Health: http://localhost:${PORT}/api/health`);
     });

@@ -63,7 +63,7 @@ export default function AboutUs() {
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                 <img
                   src="/founder-1.jpeg"
-                  alt="Founder of Craft Corner"
+                  alt="Founder of rams craftcorner"
                   className="w-full h-[500px] object-cover object-top"
                 />
                 {/* Gradient overlay at bottom */}
@@ -108,12 +108,12 @@ export default function AboutUs() {
             >
               <span className="text-sm font-medium text-primary-500 uppercase tracking-widest">Meet the Founder</span>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-3 leading-tight">
-                Hi, I'm the heart behind Craft Corner 👋
+                Hi, I'm the heart behind rams craftcorner 👋
               </h2>
 
               <div className="mt-6 space-y-5 text-gray-600 dark:text-gray-400 leading-relaxed">
                 <p className="text-lg">
-                  I'm a <strong className="text-gray-900 dark:text-white">first-year B.Tech student</strong> and the proud founder of Craft Corner. What started as a passion for creating meaningful, one-of-a-kind gifts has grown into something I truly love.
+                  I'm a <strong className="text-gray-900 dark:text-white">first-year B.Tech student</strong> and the proud founder of rams craftcorner. What started as a passion for creating meaningful, one-of-a-kind gifts has grown into something I truly love.
                 </p>
                 <p>
                   I started this journey because I believe gifts should tell a story. Every product you see here is <strong className="text-gray-900 dark:text-white">handmade by me personally</strong> — with care, creativity, and genuine attention to quality.
